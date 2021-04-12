@@ -8,6 +8,7 @@ const path = require('path')
 const mongoose = require('mongoose')
 const session = require('express-session')
 const flash = require('connect-flash')
+require('dotenv').config()
 
 //Configurações
 app.use(session({
