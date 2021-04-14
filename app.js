@@ -13,9 +13,10 @@ const Postagem = mongoose.model("postagens")
 require("./models/Categoria")
 const Categoria = mongoose.model("categorias")
 const usuarios = require("./routes/usuario")
+const db = require("./config/db")
 const passport = require("passport")
 require("./config/auth")(passport)
-const db = require("./config/db")
+
 
 
 //Configurações
@@ -59,7 +60,7 @@ app.use(express.static(path.join(__dirname, "public")))
 
 //Rotas
 app.get('/', (req, res) => {
-    Postagem.find().populate("categoria").sort({ data: "desc" }).then((postagens) => {
+    Postagem.find().populate("categoria").lean().sort({ data: "desc" }).then((postagens) => {
         res.render("index", { postagens: postagens })
     }).catch((err) => {
         req.flash("error_msg", "Houve um erro interno")
@@ -68,7 +69,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/postagem/:slug", (req, res) => {
-    Postagem.findOne({ slug: req.params.slug }).then((postagem) => {
+    Postagem.findOne({ slug: req.params.slug }).lean().then((postagem) => {
         if (postagem) {
             res.render("postagem/index", { postagem: postagem })
         } else {
@@ -81,7 +82,7 @@ app.get("/postagem/:slug", (req, res) => {
     })
 })
 app.get("/categorias", (req, res) => {
-    Categoria.find().then((categorias) => {
+    Categoria.find().lean().then((categorias) => {
         res.render("categorias/index", { categorias: categorias })
     }).catch((err) => {
         req.flash("error_msg", "Houve um erro interno ao listar as categorias")
@@ -89,10 +90,10 @@ app.get("/categorias", (req, res) => {
     })
 })
 app.get("/categorias/:slug", (req, res) => {
-    Categoria.findOne({ slug: req.params.slug }).then((categoria) => {
+    Categoria.findOne({ slug: req.params.slug }).lean().then((categoria) => {
         if (categoria) {
 
-            Postagem.find({ categoria: categoria._id }).then((postagens) => {
+            Postagem.find({ categoria: categoria._id }).lean().then((postagens) => {
 
                 res.render("categorias/postagens", { postagens: postagens, categoria: categoria })
 
