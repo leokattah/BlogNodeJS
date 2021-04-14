@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-// mongoose.plugin(slug);
+
 
 const Categoria = new Schema({
   nome: {
