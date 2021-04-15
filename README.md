@@ -13,7 +13,7 @@
  
   Curso oferecido gratuitamente por Victor Lima do Canal Guia do Programador [curso](https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B) 
 
- ## :rocket: tecnologia
+ ## :rocket: Tecnologia
 
  Projeto para estudo de NodeJS. Algumas tecnologias usadas:
 
