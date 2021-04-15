@@ -1,0 +1,2 @@
+mongoURI: "mongodb://localhost/blogapp" 
+mongoURI: "Inserir a URI do Mongo db aqui"
