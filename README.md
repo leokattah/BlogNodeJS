@@ -13,7 +13,7 @@
  
   Curso oferecido gratuitamente por Victor Lima do Canal Guia do Programador [curso](https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B) 
 
- ## :rocket: Technologies
+ ## :rocket: tecnologia
 
  Projeto para estudo de NodeJS. Algumas tecnologias usadas:
 
@@ -27,15 +27,15 @@
 ## Telas vistas pelo Admin e usuário:
 
   - [Categoria pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telacategorias.png)
-     >Cria, salva e edita informações das categorias das postagens.
+    Cria, salva e edita informações das categorias das postagens.
   - [Postagem pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telapostagens.png)
-     >Cria, salva e edita os dados das postagens como: título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e respostas
+    Cria, salva e edita os dados das postagens como: título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e respostas
   - [Home sem logar](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telahomesemlogar.png)
-     >
+    
   - [Home logado](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telahomelogado.png)
-     >
+    
 
- ## 💻 Projeto
+## 💻 Projeto
 
 Acesse a aplicação no seu navegador: [Node Blog App](https://blognodejsaaplication.herokuapp.com/).
 
