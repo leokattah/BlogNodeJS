@@ -26,9 +26,9 @@
 
 ## Telas vistas pelo Admin e usuário:
 
-  - [Categoria pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telacategorias.png)
+  - [Categoria pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telacategorias.png)<br>
     Cria, salva e edita informações das categorias das postagens.
-  - [Postagem pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telapostagens.png)
+  - [Postagem pelo Admin](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telapostagens.png)<br>
     Cria, salva e edita os dados das postagens como: título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e respostas
   - [Home sem logar](https://github.com/leokattah/BlogNodeJS/blob/main/public/img/telahomesemlogar.png)
     
