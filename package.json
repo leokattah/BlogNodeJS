@@ -15,5 +15,23 @@
   },
   "devDependencies": {
     "handlebars": "^4.5.0"
-  }
+  },
+  "name": "blogapp",
+  "description": "\"# BlogNodeJS\" \r \"# BlogNodeJS\"",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leokattah/BlogNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leokattah/BlogNodeJS/issues"
+  },
+  "homepage": "https://github.com/leokattah/BlogNodeJS#readme"
 }
