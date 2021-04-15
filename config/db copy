@@ -1,8 +1,9 @@
-// if (process.env.NODE_ENV == 'production') {
-//   module.exports = {mongoURI:'Inserir a URI do seu MongoDb aqui'};
-// } else {module.exports = { mongoURI: 'mongodb://localhost/blogapp' };
-// }
+if (process.env.NODE_ENV == 'production') {
+module.exports = {mongoURI:'Inserir a URI do seu MongoDb aqui'};
+} else {module.exports = { mongoURI: 'mongodb://localhost/blogapp' };
+}
 
-// 1) Altere a URI conforme mostrado acima;
-// 2) Mude o nome do arquivo para db.js
+1) Altere a URI conforme mostrado acima;
+2) Mude o nome do arquivo para db.js;
+3) Delete as linhas 6, 7 e 8 deste arquivo.
 
