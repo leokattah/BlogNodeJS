@@ -75,7 +75,7 @@ Aguarde atualizações...
  </p>
 
  <p align="center">
-    <img alt="print" src="public/img/print.png" >
+    <img alt="print" src="https://github.com/leokattah/BlogNodeJS/blob/main/public/img/BlogNodeJS.gif" >
  </p>
 
  ## :rocket: Technologies
