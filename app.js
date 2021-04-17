@@ -51,7 +51,7 @@ app.set('view engine', 'handlebars');
 
 // Moongoose
 
-mongoose.connect(db.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
+mongoose.connect(db.MONGOURI, {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
     console.log("conectado ao mongo")
 }).catch((err) => {
     console.log("Erro ao se conectar" + err)
