@@ -16,6 +16,7 @@ const usuarios = require("./routes/usuario")
 const db = require("./config/db")
 const passport = require("passport")
 require("./config/auth")(passport)
+require('dotenv').config()
 
 
 
